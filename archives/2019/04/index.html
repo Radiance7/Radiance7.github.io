@@ -274,7 +274,7 @@
 </div>
 </div>
                 
-
+    
 
 
 
@@ -996,7 +996,8 @@
 </div>
 
                 
-
+                
+    
 
 
 
@@ -1512,6 +1513,7 @@
     
 </div>
 
+                
             </div>
         </div>
     </section>
@@ -1531,6 +1533,9 @@
                 <br>
                 <span id="busuanzi_container_site_uv">
                 Visited by <span id="busuanzi_value_site_uv">0</span> users
+                </span>
+                <span id="busuanzi_container_site_pv">
+                    <span id="busuanzi_value_site_pv">0</span> visits
                 </span>
                 
                 </p>
@@ -1696,5 +1701,11 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
+
+    {% if theme.canvas_nest %}
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
+
+
 </body>
 </html>
